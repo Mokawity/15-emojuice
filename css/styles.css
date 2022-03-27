@@ -21,6 +21,16 @@ header {
   background-color: white;
   padding: 30px 58px 29px 58px;
   margin-bottom: 29px;
+}
+
+.button-product {
+  text-align: center;
+  text-decoration: none;
+  background-color: #7db96f;
+  color: aliceblue;
+  padding: 14px 22px;
+  margin-bottom: 18px;
+  border-radius: 12px;
 
 }
 
