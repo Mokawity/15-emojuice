@@ -70,3 +70,20 @@ header {
 .product-page {
   background-color: #7db96f;
 }
+
+.banana {
+  background-color: #FFF8D7;
+  margin: 20px;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgb(0, 0, 0 / 30px);
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.banana img {
+  width: 50px;
+}
