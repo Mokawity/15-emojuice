@@ -8,24 +8,30 @@ body {
 }
 
 main {
-  background-color: #D0f1ae;
   text-align: center;
 }
 
 h1 h2 {
   font-size: 24px;
-  font-family: sans-serif;
 }
 
 .header-site {
   background-image: url(../img/header.webp);
   padding: 30px;
+  background-size: 100%;
+  background-size: cover;
   padding-bottom: o;
   border-top: solid 8px #7db96f;
   display: flex;
   flex-direction: column;
+  justify-items: center;
   font-size: 17px;
   font-family: 'Quattrocento', serif;
+  color: #7db96f;
+}
+
+.header-site p {
+  text-align: center;
 }
 
 .product-page {
@@ -37,33 +43,6 @@ h1 h2 {
   padding: 20px 60px;
   margin-bottom: 29px;
   opacity: 90%;
-}
-
-.button-product {
-  text-align: center;
-  background-color: #7db96f;
-  padding: 14px 22px;
-  margin-bottom: 18px;
-  border-radius: 12px;
-  font-family: 'Maven Pro', sans-serif;
-}
-
-.button button-contact {
-  text-align: center;
-  background-color: white;
-  padding: 14px 22px;
-  border-radius: 12px;
-  font-family: 'Maven Pro', sans-serif;
-}
-
-.button-contact a {
-  color: white;
-  text-decoration: none;
-}
-
-.button-product a {
-  color: white;
-  text-decoration: none;
 }
 
 .introduction {
@@ -138,22 +117,38 @@ img {
   width: 100%;
 }
 
-.introduction-kiwi {
-  padding-top: 30px;
-  padding: 50px;
+.intro-kiwi {
+  background-color: #d0f1ae;
   text-align: center;
+  color: black;
+  padding: 96px 50px;
 }
 
-.introduction-kiwi, h2 {
+.intro-kiwi h2 {
   font-family: 'Sriracha', cursive;
 }
 
-.kiwi-image-intro {
+.intro-kiwi p {
+  color: #0000008c;
+  font-family: 'Quattrocento', serif;
+}
+
+.background-image {
   background-color: white;
-  padding: 40px;
-  margin: 30px 50px;
-  width: 35%;
-  border-radius: 50%;              
+  border-radius: 200px;
+  padding: 45px;
+  margin: 45px;
+  box-shadow: 0 0 10px 7px #0000004a;
+}
+
+.case-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.background-image img {
+  width: 100px;
 }
 
 .post-info-kiwi {
@@ -165,10 +160,15 @@ img {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  color: white;
 }
 
 .post-info-kiwi, h1 {
   font-family: 'Maven Pro', sans-serif;
+}
+
+.post-info-kiwi img {
+  max-width: 246px;
 }
 
 .more-product {
@@ -240,19 +240,20 @@ footer p {
   align-items: center;
 }
 
-.button-contact {
-  background-color: white;
-  max-width: 150px;
-  margin-bottom: 44px;
-}
-
 .button,
 .button-contact {
   background-color: #7db96f;
   padding: 14px 22px;
   border-radius: 12px;
-  text-align: center;
+  margin-bottom: 18px;
   color: white;
   text-decoration: none;
-  margin-bottom: 18px; 
+  font-family: 'Maven Pro', sans-serif;
+}
+
+.button-contact {
+  background-color: white;
+  color: #7db96f;
+  max-width: 150px;
+  margin-bottom: 44px;
 }
