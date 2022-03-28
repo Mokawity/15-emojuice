@@ -9,6 +9,7 @@ body {
 
 main {
   background-color: #D0f1ae;
+  text-align: center;
 }
 
 h1 h2 {
@@ -19,11 +20,16 @@ h1 h2 {
 header {
   background-image: url(../img/header.webp);
   padding: 30px;
+  padding-bottom: o;
+  border-top: solid 8px #7db96f;
+  display: flex;
+  flex-direction: column;
+  font-size: 17px;
 }
 
 .title-container {
   background-color: white;
-  padding: 30px 58px 29px 58px;
+  padding: 20px 60px;
   margin-bottom: 29px;
   opacity: 90%;
 }
@@ -55,9 +61,13 @@ header {
 
 .introduction {
   background-color: white;
-  padding: 50px;
-  font-size: 15px;
+  padding: 70px 50px;
+  font-size: 17px;
   text-align: center;
+}
+
+.introduction h1 {
+font-size: 24px;
 }
 
 .container-fruits {
@@ -159,6 +169,7 @@ header {
 
 .post-info-kiwi {
   background-color: #7db96f;
+  padding: 96px 50px;
 }
 
 footer {
