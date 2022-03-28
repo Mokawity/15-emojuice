@@ -7,6 +7,10 @@ body {
   margin: auto;
 }
 
+main {
+  background-color: #D0f1ae;
+}
+
 h1 h2 {
   font-size: 24px;
   font-family: sans-serif;
@@ -122,3 +126,32 @@ header {
   width: 50px;
 }
 
+.strawberry {
+  background-color: #F7A4B4;
+  margin: 20px;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgb(0, 0, 0 / 30px);
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.strawberry img {
+  width: 50px;
+}
+
+.introduction-kiwi {
+  padding-top: 30px;
+  padding: 50px;
+}
+
+kiwi-image-intro {
+  background-color: white;
+  padding: 40px;
+  margin: 30px 50px;
+  width: 50px;
+  border-radius: 50%;
+}
