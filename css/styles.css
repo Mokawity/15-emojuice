@@ -160,3 +160,10 @@ header {
 .post-info-kiwi {
   background-color: #7db96f;
 }
+
+footer {
+  text-align: center;
+  padding: 42px 50px;
+  color: #7db96f;
+  font-size: 17px;
+}
