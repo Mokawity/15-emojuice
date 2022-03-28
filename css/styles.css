@@ -84,6 +84,19 @@ header {
   align-items: flex-end;
 }
 
+.kiwi {
+  background-color: #C4F2AD;
+  margin: 20px;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgb(0, 0, 0 / 30px);
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
 .banana img {
   width: 50px;
 }
