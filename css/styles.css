@@ -153,6 +153,10 @@ font-size: 24px;
   width: 50px;
 }
 
+img {
+  width: 100%;
+}
+
 .introduction-kiwi {
   padding-top: 30px;
   padding: 50px;
@@ -170,6 +174,7 @@ font-size: 24px;
 .post-info-kiwi {
   background-color: #7db96f;
   padding: 96px 50px;
+  color: white;
 }
 
 .more-product {
@@ -190,9 +195,56 @@ more-product h1 {
   margin-bottom: 30px;
 }
 
+.product-coffee {
+  background-color: #cdc4b0;
+  width: 35%;
+}
+
+.product-strawberry {
+  background-color: #e2a3b1;
+  width: 35%;
+}
+
+.product-coffee,
+.product-strawberry {
+  border-radius: 20px;
+  padding: 10px;
+  box-shadow: 0 0 10px 7px #0000004a;
+  margin: 30px 0;
+}
+
+.duo-product {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
 footer {
   text-align: center;
   padding: 42px 50px;
   color: #7db96f;
   font-size: 17px;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.button-contact {
+  background-color: white;
+  max-width: 150px;
+  margin-bottom: 44px;
+}
+
+.button,
+.button-contact {
+  background-color: #7db96f;
+  padding: 14px 22px;
+  border-radius: 12px;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  margin-bottom: 18px; 
 }
