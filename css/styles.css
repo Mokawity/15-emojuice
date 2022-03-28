@@ -36,6 +36,7 @@ h1 h2 {
 
 .product-page {
   background-color: #7db96f;
+  color: white;
 }
 
 .title-container {
@@ -85,6 +86,24 @@ font-family: 'Maven Pro', sans-serif;
    margin-bottom: 40px;
  }
 
+ .article-banana, a
+ .article-kiwi, a
+ .article-coffee, a
+ .article-strawberry, a {
+   color: black;
+   font-family: 'Maven Pro', sans-serif;
+   font-size: 13px;
+ }
+
+ .article-banana p,
+ .article-coffee p
+ .article-kiwi p,
+ .article-strawberry, p {
+   color: 0000008c;
+   font-family: 'Quattrocento', serif;
+   font-size: 15px;
+ }
+
  .container {
    display: flex;
    flex-direction: row;
@@ -102,7 +121,7 @@ font-family: 'Maven Pro', sans-serif;
  }
 
  .article-coffee {
-   background-color: #cdc4b0;
+   background-color: #CDC4B0;
  }
 
  .article-kiwi {
@@ -196,14 +215,18 @@ more-product h1 {
   font-size: 25px;
 }
 
+.product-container p {
+  color: darkgray;
+}
+
 .product-coffee {
   background-color: #cdc4b0;
-  width: 35%;
+  width: 36%;
 }
 
 .product-strawberry {
   background-color: #e2a3b1;
-  width: 35%;
+  width: 36%;
 }
 
 .product-coffee,
@@ -222,6 +245,10 @@ more-product h1 {
   justify-content: space-between;
 }
 
+.product-container img {
+  width: 50px;
+}
+
 footer {
   text-align: center;
   padding: 42px 50px;
@@ -232,6 +259,7 @@ footer {
 footer p {
   font-size: 11px;
   margin-bottom: 30px;
+  margin-top: 40px;
 }
 
 .button-container {
