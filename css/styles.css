@@ -172,6 +172,24 @@ font-size: 24px;
   padding: 96px 50px;
 }
 
+.more-product {
+  background-color: #d0f1ae;
+  color: black;
+  padding: 30px;
+  padding-bottom: 50px;
+}
+
+more-product h1 {
+  font-size: 16px;
+}
+
+.product-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 30px;
+}
+
 footer {
   text-align: center;
   padding: 42px 50px;
