@@ -146,12 +146,17 @@ header {
 .introduction-kiwi {
   padding-top: 30px;
   padding: 50px;
+  text-align: center;
 }
 
-kiwi-image-intro {
+.kiwi-image-intro {
   background-color: white;
   padding: 40px;
   margin: 30px 50px;
-  width: 50px;
-  border-radius: 50%;
+  width: 35%;
+  border-radius: 50%;              
+}
+
+.post-info-kiwi {
+  background-color: #7db96f;
 }
