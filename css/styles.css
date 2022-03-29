@@ -239,6 +239,15 @@ more-product h1 {
   box-shadow: 0 0 10px 7px #0000004a;
 }
 
+.more-product h2 {
+  font-size: 25px;
+  font-family: 'Maven Pro', sans-serif;
+}
+
+main a {
+  font-size: ;
+}
+
 .duo-product {
   display: flex;
   flex-direction: row;
@@ -260,6 +269,10 @@ footer p {
   font-size: 11px;
   margin-bottom: 30px;
   margin-top: 40px;
+}
+
+footer h1 {
+  font-size: 30px;
 }
 
 .button-container {
